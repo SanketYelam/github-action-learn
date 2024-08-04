@@ -11,17 +11,6 @@ jobs:
 
     steps:
       - name: print hello
-        run: echo "hello world !!"
+        run: cat /etc/os-release
         
-      - name: print chalo
-        run: echo "chalo world !!"
-
-  chaloworld:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: print hello
-        run: echo "hello world !!"
-        
-      - name: print chalo
-        run: echo "chalo world !!"
+     
