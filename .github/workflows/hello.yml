@@ -1,0 +1,30 @@
+name: Learn basic of GitHub Action
+
+on:
+  push:
+    branches:
+      -  master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hellow
+        run: echo "hello world !!"
+Vaibhav Zodge
+9:28 PM
+name: Learn basic of GitHub Action
+
+on:
+  push:
+    branches:
+      -  master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hellow
+        run: echo "hello world !!"
