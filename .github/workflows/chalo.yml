@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      -  main
+
+jobs:
+  chaloworld:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print chalo
+        run: echo "chalo world !!"
